@@ -1,0 +1,65 @@
+#  ____   _                 ____   _                _             
+# / ___| | |_   __ _  _ __ |  _ \ | | _   _   __ _ (_) _ __   ___ 
+# \___ \ | __| / _` || '__|| |_) || || | | | / _` || || '_ \ / __|
+#  ___) || |_ | (_| || |   |  __/ | || |_| || (_| || || | | |\__ \
+# |____/  \__| \__,_||_|   |_|    |_| \__,_| \__, ||_||_| |_||___/
+#                                            |___/                
+
+Enabled: true
+# # Habilidatar o sistema de bloqueio de troca.
+
+Message-Enabled: true
+Message: '&cVillager %tipo% esta Desativado.'
+# # Habilita a mensagem quando o jogador tenta trocar.
+
+Action-Bar: false
+Action-Bar-Message: '&cVillager %tipo% esta Desativado.'
+# # Habilitar a mensagem na action bar.
+
+Title: false
+Title-Message: '&c%tipo%'
+Title-Subtitle: '&cEsta Desativado.'
+# # Só funciona se Title estiver definido como true
+
+Profession-Blocker:
+  Enabled: false
+  Profession:
+    Armorer: false
+    Butcher: false
+    Cartographer: false
+    Cleric: false
+    Farmer: false
+    Fisherman: false
+    Fletcher: false
+    Leatherworker: false
+    Librarian: true
+    Nitwit: false
+    Shepherd: false
+    Toolsmith: false
+    Weaponsmith: false
+    Mason: false
+
+Block-trade-item:
+  Enabled: true
+  Profession:
+    Armorer: []
+    Butcher: []
+    Cartographer: []
+    Cleric: []
+    Farmer: []
+    Fisherman: []
+    Fletcher: []
+    Leatherworker: []
+    Librarian: 
+    - "MENDING"
+    Nitwit: []
+    Shepherd: []
+    Toolsmith: []
+    Weaponsmith: []
+    Mason: []
+
+# # Desativar comércio para profissões específicas de aldeões
+
+Other-Messages:
+  Reload: '&aConfig reiniciada com sucesso.'
+  No-Permission: '&cVoce não tem permissao para fazer isso.'
